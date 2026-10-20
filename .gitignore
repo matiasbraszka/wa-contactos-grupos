@@ -1,0 +1,10 @@
+# Datos de personas: NUNCA al repo
+*.xlsx
+*.xls
+*.csv
+*-diagnostico.txt
+
+# Sesión de WhatsApp vinculada (da acceso a la cuenta)
+sesion/
+
+node_modules/

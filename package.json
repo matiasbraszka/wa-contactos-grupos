@@ -1,0 +1,15 @@
+{
+  "name": "wa-contactos-grupos",
+  "private": true,
+  "type": "module",
+  "description": "Extrae a un Excel los miembros de los grupos de WhatsApp de un número vinculado por QR. Corre en la PC, no sube nada.",
+  "scripts": {
+    "extraer": "node extraer.mjs"
+  },
+  "dependencies": {
+    "baileys": "^7.0.0-rc14",
+    "exceljs": "^4.4.0",
+    "pino": "^10.4.0",
+    "qrcode": "^1.5.4"
+  }
+}
